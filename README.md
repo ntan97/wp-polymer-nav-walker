@@ -1,9 +1,10 @@
 # WP_Polymer_Nav_Walker
 Custom Nav Walker to format links properly and navigation for paper-menu element
 
-** How to Use **
-Designed to be used in wp_nav_menu()
+## How to Use
+WP_Polymer_Nav_Walker is designed to be used in wp_nav_menu(), and you should already have polymer elements included as imports in your header.php, or through another method
 
+```PHP
 $args = array(
     'menu'  => 'header_menu',
     'theme_location'  => 'header_menu',
@@ -13,3 +14,4 @@ $args = array(
     'fallback_cb'     => 'polymer_walker_nav_menu::fallback',
   );
   wp_nav_menu($args);
+```
