@@ -1,5 +1,5 @@
-# WP_Polymer_Nav_Walker
-Custom Nav Walker to format links properly and navigation for paper-menu element
+# Polymer Nav Walker
+Custom Nav Walker to format links properly and navigation for paper-menu element; Designed to be used in [Polypress](https://github.com/ntan97/Polypress)
 
 ## How to Use
 WP_Polymer_Nav_Walker is designed to be used in wp_nav_menu(), and you should already have polymer elements included as imports in your header.php, or through another method
