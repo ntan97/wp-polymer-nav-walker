@@ -12,6 +12,7 @@ $args = array(
     'items_wrap'      => '<paper-menu id="%1$s" class="%2$s">%3$s</paper-menu>',
     'walker'          => new polymer_walker_nav_menu(),
     'fallback_cb'     => 'polymer_walker_nav_menu::fallback',
-  );
-  wp_nav_menu($args);
+);
+
+wp_nav_menu($args);
 ```
